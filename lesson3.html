@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css">
+
+  <title>Lesson 3 | Forms</title>
+</head>
+
+<body>
+  <!-- container or container-fluid -->
+  <div class="container">
+    <h1>Forms</h1>
+    <form action="welcome.html" method="POST" autocomplete="" onsubmit="">
+      <label for="name">Name</label><br>
+      <input type="text" name="name" id="n1" size="50" required><br>
+
+      <label for="password">Password</label><br>
+      <input type="password" name="password" id="pass" placeholder="Enter Your Password"><br>
+
+      <label for="phone">Phone</label><br>
+      <input type="text" name="phone" id="phone"><br>
+
+      <label for="date">Date of Birth</label><br>
+      <input type="date" name="date" id="dob"><br>
+
+      <label for="gender">Gender</label><br>
+      Male: <input type="radio" name="gender" id="gen">
+      Female: <input type="radio" name="gender" id="gen"><br>
+
+      <label for="image">Upload an Image</label><br>
+      <input type="file" name="image" id="img"><br>
+
+      <label for="city">Select Your City</label><br>
+      <section>
+        <!-- selection tags -->
+        <option value="">Bellingham</option>
+        <option value="">Seattle</option>
+        <option value="">Tacoma</option>
+      </section><br>
+
+      <label for="message">Message</label><br>
+      <textarea name="message" id="msg" cols="30" rows="10"></textarea><br>
+
+      <input class="btn btn-danger" type="submit" value="Send">
+    </form>
+  </div>
+
+  <hr>
+  <h3>Audio</h3>
+  <audio controls autoplay loop muted>
+    <source src="media/audio.mp3" type="audio/mp3">
+  </audio>
+
+  <hr>
+  <h3>Video</h3>
+  <video controls autoplay loop plays-inline>
+    <source src="media/video.mp4" type="video/mp4">
+  </video>
+
+  <div style="margin-top:400px">
+
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
